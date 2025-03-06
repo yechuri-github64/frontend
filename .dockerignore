@@ -1,0 +1,29 @@
+# Node modules and package manager files
+node_modules/
+npm-debug.log
+yarn-error.log
+pnpm-debug.log
+
+# Environment files (secrets, API keys, etc.)
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Build and cache files
+dist/
+.vite/
+.cache/
+*.log
+
+# Vercel and other deployment configs
+vercel.json
+netlify.toml
+
+# Editor and OS-specific files
+.DS_Store
+*.swp
+.idea/
+.vscode/
+

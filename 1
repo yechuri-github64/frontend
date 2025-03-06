@@ -1,0 +1,19 @@
+FROM ubuntu:latest
+WORKDIR /app
+RUN apt update && apt install -y \
+    nodejs \
+    npm \
+    curl \
+    git \
+    nano \
+    && npm install -g vite \
+    && apt clean
+
+COPY . .
+
+RUN npm install
+
+EXPOSE 5173
+ENTRYPOINT ["npm"]
+
+CMD ["run", "dev", "--", "--host"]

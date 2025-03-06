@@ -1,0 +1,25 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+*.log
+
+# Build directories
+/dist
+/build
+
+# Vercel config (optional, can be committed if you need it)
+vercel.json
+
+# Environment variables (make sure to create a .env file for local usage)
+.env*
+.env.local
+.env.*.local
+
+# macOS system files
+.DS_Store
+
+# npm and yarn lock files (optional, if you want to ignore them)
+# package-lock.json
+# yarn.lock
+
